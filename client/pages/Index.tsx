@@ -103,7 +103,9 @@ export default function Index() {
               <Activity className="w-8 h-8 text-white" />
             </div>
           </div>
-          <h1 className="text-4xl font-bold text-gray-900 mb-2">BMI Calculator</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-2">
+            BMI Calculator
+          </h1>
           <p className="text-gray-600">Find your Body Mass Index</p>
         </div>
 
@@ -179,14 +181,18 @@ export default function Index() {
 
           {result.bmi === null && (
             <div className="mt-8 pt-8 border-t-2 border-gray-100 text-center">
-              <p className="text-gray-400">Enter your height and weight to calculate</p>
+              <p className="text-gray-400">
+                Enter your height and weight to calculate
+              </p>
             </div>
           )}
         </div>
 
         {/* BMI Chart */}
         <div className="bg-white rounded-3xl shadow-2xl p-8 animate-slide-up">
-          <h2 className="text-lg font-bold text-gray-900 mb-4">BMI Categories</h2>
+          <h2 className="text-lg font-bold text-gray-900 mb-4">
+            BMI Categories
+          </h2>
           <div className="space-y-3">
             {categoryRanges.map((item, index) => (
               <div
